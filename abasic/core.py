@@ -1,2 +1,7 @@
+from .lexer.scanner import Scanner
+
+
 def main(program):
-    print(program)
+    scanner = Scanner(program)
+    result = scanner.getNextLexem()
+    print(result)

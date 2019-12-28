@@ -1,6 +1,6 @@
 def main():
     from .core import main
-    program = "PRINT \"HELLO, WORLD\""
+    program = "    PRINT \"HELLO, WORLD\""
     main(program)
 
 
